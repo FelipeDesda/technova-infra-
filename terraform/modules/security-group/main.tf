@@ -39,4 +39,4 @@ resource "aws_security_group_rule" "allow_https" {
   cidr_blocks       = ["0.0.0.0/0"]
   security_group_id = aws_security_group.technova_api.id
   description       = "Allow HTTPS inbound"
-}
+} 
