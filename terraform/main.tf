@@ -4,7 +4,7 @@
 # Módulo 1: VPC (base de tudo)
 # ========================================
 module "vpc" {
-  source = "./modules/vpc-dynamic"
+  source = "./modules/vpc"
 
   vpc_cidr     = var.vpc_cidr
   project_name = var.project_name
